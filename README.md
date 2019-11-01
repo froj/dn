@@ -56,5 +56,6 @@ If you want search, my recommendation is that you install a tool like `ripgrep`,
 
 For bash: `cat dn >> ~/.bashrc`
 For zsh: `cat dn >> ~/.zshrc`
+For fish: `find dn*.fish -exec ln -s (pwd)/\{\} ~/.config/fish/functions/\{\} \;`
 
 Replace with the config file for your shell of choice!
